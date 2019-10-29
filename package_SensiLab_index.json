@@ -1,0 +1,133 @@
+{
+	"packages": [
+	{
+		"name": "SensiLab_Arduino",
+		"maintainer": "Elliott Wilson",
+		"websiteURL": "https://sensilab.monash.edu",
+		"email": "elliott.wilson@monash.edu",
+		"help": {
+			"online": "https://sensilab.monash.edu"
+		},
+		"platforms": [
+            {
+                "name": "SensiLab SAMD Boards",
+                "architecture": "samd",
+                "version": "1.0",
+                "category": "Contributed",
+                "help": {
+                    "online": "https://sensilab.monash.edu"
+                },
+                "url": "https://github.com/elliottkwilson/SensiLab_Arduino/raw/master/SensiLab_SAMD_1.0.zip",
+                "archiveFileName": "SensiLab_SAMD_1.0.zip",
+                "checksum": "SHA-256:e3badcce362ca9f33b8c0e55dcfe5302e8a4efb9578b3cdb5d3a17ab3c2e2feb",
+                "size": "658526",
+                "boards": [
+                    {"name": "DrawBot V3"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "arduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "SensiLab_Arduino",
+                        "name": "bossac",
+                        "version": "1.7.0-SensiLab"
+                    },
+                    {
+                        "packager": "arduino",
+                        "name": "openocd",
+                        "version": "0.9.0-arduino"
+                    },
+                    {
+                        "packager": "arduino",
+                        "name": "CMSIS",
+                        "version": "4.5.0"
+                    },
+                    {
+                        "packager": "SensiLab_Arduino",
+                        "name": "CMSIS-Atmel",
+                        "version": "1.0.0-SensiLab"
+                    },
+                    {
+                        "packager": "arduino",
+                        "name": "arduinoOTA",
+                        "version": "1.2.0"
+                    }
+                ]
+            }
+		],
+		"tools":[
+            {
+                "name": "bossac",
+                "version": "1.7.0-SensiLab",
+                "systems": [
+                    {
+                        "host": "i686-mingw32",
+                        "url": "https://github.com/elliottkwilson/SensiLab_Arduino/raw/master/bossac-1.7.0-SensiLab-mingw32.zip",
+                        "archiveFileName": "bossac-1.7.0-SensiLab-mingw32.zip",
+                        "checksum": "SHA-256:fc97bb1fd9ec2329dbdd338956ed9c995cfc86646cced07bf9d079d8aca9a51d",
+                        "size": "326678"
+                    },
+                    {
+                        "host": "x86_64-pc-linux-gnu",
+                        "url": "https://github.com/elliottkwilson/SensiLab_Arduino/raw/master/bossac-1.7.0-SensiLab-x86_64-linux-gnu.zip",
+                        "archiveFileName": "bossac-1.7.0-SensiLab-x86_64-linux-gnu.zip",
+                        "checksum": "SHA-256:fb874e6412a9c2a69f0241a35c4cfa79d399a75b126224ee49391e233c09a6f4",
+                        "size": "35638"
+                    },
+                    {
+                        "host": "i686-pc-linux-gnu",
+                        "url": "https://github.com/elliottkwilson/SensiLab_Arduino/raw/master/bossac-1.7.0-SensiLab-i686-linux-gnu.zip",
+                        "archiveFileName": "bossac-1.7.0-SensiLab-i686-linux-gnu.zip",
+                        "checksum": "SHA-256:7fec4b2bfdc48803192a5841659efad1949e961c32e1f9d9262872730a580ff4",
+                        "size": "35644"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "url": "https://github.com/elliottkwilson/SensiLab_Arduino/raw/master/bossac-1.7.0-SensiLab-x86_64-apple-darwin.zip",
+                        "archiveFileName": "bossac-1.7.0-SensiLab-x86_64-apple-darwin.zip",
+                        "checksum": "SHA-256:fa14a0f41dcc22154ad310608f28f6788d12fcc5ecead4f1391f14d1923b6a84",
+                        "size": "89867"
+                    }
+                ]
+            },
+            {
+                "name": "CMSIS-Atmel",
+                "version": "1.0.0-SensiLab",
+                "systems": [
+                    {
+                        "host": "i686-mingw32",
+                        "url": "https://github.com/elliottkwilson/SensiLab_Arduino/raw/master/CMSIS-Atmel-1.0.0-SensiLab.zip",
+                        "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
+                        "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
+                        "size": "3098086"
+                    },
+                    {
+                        "host": "x86_64-pc-linux-gnu",
+                        "url": "https://github.com/elliottkwilson/SensiLab_Arduino/raw/master/CMSIS-Atmel-1.0.0-SensiLab.zip",
+                        "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
+                        "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
+                        "size": "3098086"
+                    },
+                    {
+                        "host": "i686-pc-linux-gnu",
+                        "url": "https://github.com/elliottkwilson/SensiLab_Arduino/raw/master/CMSIS-Atmel-1.0.0-SensiLab.zip",
+                        "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
+                        "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
+                        "size": "3098086"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "url": "https://github.com/elliottkwilson/SensiLab_Arduino/raw/master/CMSIS-Atmel-1.0.0-SensiLab.zip",
+                        "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
+                        "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
+                        "size": "3098086"
+                    }
+                ]
+            }
+		]
+	}
+	]
+}
